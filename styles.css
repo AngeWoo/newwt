@@ -61,6 +61,27 @@
 .nav-videos { left: 82.3%; width: 4%; }
 .nav-news { left: 87.8%; width: 4%; }
 .nav-history { left: 93%; width: 4%; }
+.nav-interactive {
+  color: #202020;
+  display: block;
+  font-family: "Noto Serif TC", "Songti TC", "PingFang TC", serif;
+  font-size: clamp(9px, 0.68vw, 13px);
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1;
+  position: absolute;
+  right: clamp(8px, 0.8vw, 18px);
+  text-align: left;
+  top: calc(25 / var(--image-height) * 100%);
+  white-space: nowrap;
+  z-index: 3;
+}
+
+.nav-interactive:hover,
+.nav-interactive:focus-visible {
+  color: var(--gold);
+  outline: none;
+}
 .cta-scroll { left: 47.3%; top: calc(995 / var(--image-height) * 100%); width: 5.4%; height: calc(81 / var(--image-height) * 100%); }
 .scroll-anchor { left: 0; position: absolute; top: calc(1080 / var(--image-height) * 100%); }
 
