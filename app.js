@@ -42,3 +42,21 @@ if (audioList) {
     audioList.appendChild(item);
   });
 }
+
+const scrollTopButton = document.querySelector(".scroll-top");
+const scrollBottomButton = document.querySelector(".scroll-bottom");
+
+if (scrollTopButton) {
+  scrollTopButton.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+}
+
+if (scrollBottomButton) {
+  scrollBottomButton.addEventListener("click", () => {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth"
+    });
+  });
+}
