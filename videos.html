@@ -7,26 +7,119 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <title>法會影片｜寒修行</title>
+    <meta name="description" content="寒修行法會影片精選，含令和六年度冬期修行開白法要、瑞教影音、節分法要精華與大般涅槃經教義講座。" />
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css?v=20260605-float" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />    <link rel="stylesheet" href="styles.css?v=20260613f" />
   </head>
-  <body class="design-body">
-    <main class="design-page" style="--image-height: 2909">
-      <img src="05-viedo_0.jpg?v=20260605-nocache" alt="法會影片" width="1920" height="2909" />
-      <a class="hotspot brand-hotspot" href="index.html" aria-label="回首頁"></a>
-      <a class="hotspot nav-home" href="index.html" aria-label="首頁"></a>
-      <a class="hotspot nav-schedule" href="schedule.html" aria-label="活動場次"></a>
-      <a class="hotspot nav-guide" href="guide.html" aria-label="拜讀指引"></a>
-      <a class="hotspot nav-elearning" href="elearning.html" aria-label="數位學習"></a>
-      <a class="hotspot nav-videos" href="videos.html" aria-label="法會影片"></a>
-      <a class="hotspot nav-news" href="news.html" aria-label="最新訊息"></a>
-      <a class="hotspot nav-history" href="history.html" aria-label="苑史介紹"></a>
-      <a class="nav-interactive" href="https://angewoo.github.io/wt2026/" target="_blank" rel="noopener noreferrer">互動專區</a>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><img loading="eager" decoding="async" src="assets/logo-calligraphy.png" alt="寒修行" /></a>
+      <button type="button" class="menu-button" aria-label="開啟選單" aria-expanded="false">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">首頁</a>
+        <a href="schedule.html">活動場次</a>
+        <a href="guide.html">拜讀指引</a>
+        <a href="elearning.html">數位學習</a>
+        <a href="videos.html" class="active">法會影片</a>
+        <a href="news.html">最新訊息</a>
+        <a href="history.html">苑史介紹</a>
+        <a class="nav-external" href="https://angewoo.github.io/wt2026/" target="_blank" rel="noopener noreferrer">互動專區</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="photo-hero">
+        <h1 class="sr-only">法會影片</h1>
+        <p class="sr-only">透過影像，共感法樂。在冬期修行之際，讓我們透過各類精選影片，重溫莊嚴的法會瞬間與教化真諦。</p>
+        <img loading="eager" decoding="async" fetchpriority="high" src="assets/hero-videos.jpg" alt="法會影片——湖畔霧凇雪景" />
+      </section>
+
+      <section class="section reveal">
+        <ul class="pill-tabs" data-filter-group data-filter-target="[data-cat]">
+          <li><span class="active" data-filter="all" role="button" tabindex="0">全部影片</span></li>
+          <li><span data-filter="瑞教" role="button" tabindex="0">瑞教</span></li>
+          <li><span data-filter="PR" role="button" tabindex="0">PR</span></li>
+          <li><span data-filter="開白" role="button" tabindex="0">開白</span></li>
+          <li><span data-filter="法會" role="button" tabindex="0">法會</span></li>
+          <li><span data-filter="苑史" role="button" tabindex="0">苑史</span></li>
+        </ul>
+
+        <div class="featured-video" data-cat="開白">
+          <img loading="lazy" decoding="async" src="assets/vid-featured.jpg" alt="法會燭光" />
+          <div>
+            <h2>令和六年度 冬期修行開白法要</h2>
+            <p>今年冬期修行的正式啟動，集結了全球信徒的誠心。以此法要揭開為期一個月的精進之旅，感受心靈的洗滌與光芒。</p>
+            <div class="meta">
+              <span>&#x23F1;&#xFE0E; 15:20</span>
+              <span>&#x1F441;&#xFE0E; 12.5k views</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-grid">
+          <article data-cat="瑞教">
+            <div class="thumb">
+              <img loading="lazy" decoding="async" src="assets/vid-1.jpg" alt="枯山水沙紋" />
+              <span class="duration">08:45</span>
+            </div>
+            <h3>真如之理：苑主開示</h3>
+            <p>深入淺出地講解真如教義，指引在現代生活中實踐慈悲與智慧的方向。</p>
+          </article>
+          <article data-cat="苑史">
+            <div class="thumb">
+              <img loading="lazy" decoding="async" src="assets/vid-2.jpg" alt="夜晚的燈籠" />
+              <span class="duration">12:50</span>
+            </div>
+            <h3>苑史回顧：開山之始</h3>
+            <p>追溯真如苑創立初期的艱辛與法緣，重溫開祖夫婦的悲願與奉獻。</p>
+          </article>
+          <article data-cat="瑞教">
+            <div class="thumb">
+              <img loading="lazy" decoding="async" src="assets/vid-3.jpg" alt="盛開的蓮花" />
+              <span class="duration">05:15</span>
+            </div>
+            <h3>瑞教影音：心之清泉</h3>
+            <p>精選法語配以優美自然影像，提供每日冥想與省思的片刻寧靜。</p>
+          </article>
+          <article data-cat="PR">
+            <div class="thumb">
+              <img loading="lazy" decoding="async" src="assets/vid-4.jpg" alt="寺院迴廊" />
+              <span class="duration">24:00</span>
+            </div>
+            <h3>PR：連結世界的真如</h3>
+            <p>真如苑在世界各地的社會公益活動，展現佛法如何轉化為具體的利他行動。</p>
+          </article>
+          <article data-cat="法會">
+            <div class="thumb">
+              <img loading="lazy" decoding="async" src="assets/vid-5.jpg" alt="古典屏風繪畫" />
+              <span class="duration">18:20</span>
+            </div>
+            <h3>節分法要精華</h3>
+            <p>回顧立春之際的除災招福法要，感受驅除三毒、迎接清淨之心的喜悅。</p>
+          </article>
+          <article data-cat="法會">
+            <div class="thumb">
+              <img loading="lazy" decoding="async" src="assets/vid-6.jpg" alt="經卷" />
+              <span class="duration">45:00</span>
+            </div>
+            <h3>教義講座：大般涅槃經概要</h3>
+            <p>學術性與實踐性並重的專題講座，引導信眾深入經典的核心思想。</p>
+          </article>
+        </div>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <img loading="lazy" decoding="async" src="assets/brand-dark.png" alt="Shinnyo 真如苑" />
+      <small>© 2026 真如苑台灣教區 版權所有</small>
+    </footer>
+
     <div class="floating-scroll" aria-label="頁面快速捲動">
       <button type="button" class="scroll-top" aria-label="回到最上頁">↑</button>
       <button type="button" class="scroll-bottom" aria-label="前往最下頁">↓</button>
     </div>
-    <script src="app.js?v=20260605-float"></script>
+    <script src="app.js?v=20260613c"></script>
   </body>
 </html>

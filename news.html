@@ -7,26 +7,86 @@
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
     <title>最新訊息｜寒修行</title>
+    <meta name="description" content="寒修行最新訊息與重要公告，掌握活動公告、數位平台與交通指南的最新動態。" />
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css?v=20260605-float" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;500;600;700;900&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />    <link rel="stylesheet" href="styles.css?v=20260613f" />
   </head>
-  <body class="design-body">
-    <main class="design-page" style="--image-height: 2259">
-      <img src="06-news_0.jpg?v=20260605-nocache" alt="最新訊息" width="1920" height="2259" />
-      <a class="hotspot brand-hotspot" href="index.html" aria-label="回首頁"></a>
-      <a class="hotspot nav-home" href="index.html" aria-label="首頁"></a>
-      <a class="hotspot nav-schedule" href="schedule.html" aria-label="活動場次"></a>
-      <a class="hotspot nav-guide" href="guide.html" aria-label="拜讀指引"></a>
-      <a class="hotspot nav-elearning" href="elearning.html" aria-label="數位學習"></a>
-      <a class="hotspot nav-videos" href="videos.html" aria-label="法會影片"></a>
-      <a class="hotspot nav-news" href="news.html" aria-label="最新訊息"></a>
-      <a class="hotspot nav-history" href="history.html" aria-label="苑史介紹"></a>
-      <a class="nav-interactive" href="https://angewoo.github.io/wt2026/" target="_blank" rel="noopener noreferrer">互動專區</a>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html"><img loading="eager" decoding="async" src="assets/logo-calligraphy.png" alt="寒修行" /></a>
+      <button type="button" class="menu-button" aria-label="開啟選單" aria-expanded="false">☰</button>
+      <nav class="site-nav">
+        <a href="index.html">首頁</a>
+        <a href="schedule.html">活動場次</a>
+        <a href="guide.html">拜讀指引</a>
+        <a href="elearning.html">數位學習</a>
+        <a href="videos.html">法會影片</a>
+        <a href="news.html" class="active">最新訊息</a>
+        <a href="history.html">苑史介紹</a>
+        <a class="nav-external" href="https://angewoo.github.io/wt2026/" target="_blank" rel="noopener noreferrer">互動專區</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="photo-hero">
+        <h1 class="sr-only">最新訊息</h1>
+        <p class="sr-only">掌握年寒修行的最新動態與重要公告。</p>
+        <img loading="eager" decoding="async" fetchpriority="high" src="assets/hero-news.jpg" alt="最新訊息——湖面晨霧" />
+      </section>
+
+      <section class="section reveal">
+        <div class="news-layout">
+          <article class="news-main">
+            <div class="news-cover">
+              <span class="tag">重要公告</span>
+            </div>
+            <div class="news-body">
+              <time datetime="2025-10-18">2025年10月18日</time>
+              <h2>2026年寒修行正式啟動！誠摯邀請您的參與</h2>
+              <p>親愛的信眾們，2026年寒修行將於2026年1月20日正式展開。今年的主題為「感恩與慈悲」，我們將透過一系列的法會、學習與實踐活動，共同在寒冷的冬日中溫暖彼此的心靈，淨化內在，增長智慧。無論您身在何處，都可以透過線上直播參與法會。</p>
+              <a class="primary-button" href="#">閱讀全文 →</a>
+            </div>
+          </article>
+
+          <aside class="news-side">
+            <h3>訊息類別</h3>
+            <div class="tag-row" data-filter-group data-filter-target=".news-list li">
+              <span class="active" data-filter="all" role="button" tabindex="0">全部</span>
+              <span data-filter="活動公告" role="button" tabindex="0">活動公告</span>
+              <span data-filter="數位平台" role="button" tabindex="0">數位平台</span>
+              <span data-filter="交通指南" role="button" tabindex="0">交通指南</span>
+            </div>
+            <ul class="news-list">
+              <li data-cat="交通指南">
+                <time datetime="2025-12-01">2025.12.01</time>
+                <a href="#">寒修行期間交通與場地配置公告</a>
+              </li>
+              <li data-cat="數位平台">
+                <time datetime="2025-12-15">2025.12.15</time>
+                <a href="#">數位學習平台『小小炭火體驗談』更新通知</a>
+              </li>
+              <li data-cat="數位平台">
+                <time datetime="2026-01-05">2026.01.05</time>
+                <a href="#">線上法會直播平台操作指南</a>
+              </li>
+            </ul>
+            <a class="ghost-button" href="#">查看過往訊息</a>
+          </aside>
+        </div>
+      </section>
     </main>
+
+    <footer class="site-footer">
+      <img loading="lazy" decoding="async" src="assets/brand-dark.png" alt="Shinnyo 真如苑" />
+      <small>© 2026 真如苑台灣教區 版權所有</small>
+    </footer>
+
     <div class="floating-scroll" aria-label="頁面快速捲動">
       <button type="button" class="scroll-top" aria-label="回到最上頁">↑</button>
       <button type="button" class="scroll-bottom" aria-label="前往最下頁">↓</button>
     </div>
-    <script src="app.js?v=20260605-float"></script>
+    <script src="app.js?v=20260613c"></script>
   </body>
 </html>
